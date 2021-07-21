@@ -1,104 +1,44 @@
+
 <!DOCTYPE html>
-<html>
+<img src="https://images.vexels.com/media/users/3/140013/isolated/preview/19f0d4c660564b60d96c5269b02d9903-cow-silhouette-by-vexels.png" style="position:absolute;float: right; top:0; right:0;" width='120' height='120' />
+<html lang="en">
 <head>
+<title>Page Title</title>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+body {
+  font-family: Copperplate Gothic Light;
+  margin: 0;
 }
 
-/* Modal Content */
-.modal-content {
-  background-color: black;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
+
+.header {
+  padding: 5px;
+  text-align: center;
+  background: #35824E;
+  color: white;
+  font-size: 15px;
 }
 
-/* The Close Button */
-.close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
 
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
-.Btn {
-  background: transparent;
-  border: none !important;
-  font-size:0;
-}
+.content {padding:20px;}
 </style>
 </head>
 <body>
 
-
-
-<!-- Trigger/Open The Modal -->
-<button id="myBtn" class="Btn">
-  <img src="https://win98icons.alexmeub.com/icons/png/note-2.png"style="position:absolute;float: right; top:20%; left:1%;" width='55' height='55'></button>
-
-<!-- The Modal -->
-<div id="myModal" class="modal">
-
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <img src="https://win98icons.alexmeub.com/icons/png/windows-0.png">
-  </div>
-
+<div class="header">
+  <h1>50 Gate Farms</h1>
+  <p>Version 1.0</p>
 </div>
 
-<script>
-// Get the modal
-var modal = document.getElementById("myModal");
-
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-</script>
+<div class="content">
+  <h1>Content</h1>
+  <p>Some content blablabla, some content blablabla.</p>
+  <p>Some content blablabla, some content blablabla.</p>
+  <p>Some content blablabla, some content blablabla.</p>
+</div>
 
 </body>
 </html>
-
-
-<img src="https://win98icons.alexmeub.com/icons/png/windows-0.png" style= width='100' height='100' >
